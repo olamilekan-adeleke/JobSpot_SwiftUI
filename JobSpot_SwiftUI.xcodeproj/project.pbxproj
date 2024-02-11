@@ -23,6 +23,7 @@
 		395890272B791CDD0033BF7D /* HomeBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395890262B791CDD0033BF7D /* HomeBannerView.swift */; };
 		395890292B791E9C0033BF7D /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395890282B791E9C0033BF7D /* HomeHeaderView.swift */; };
 		3958902B2B7924AD0033BF7D /* HomeJobStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3958902A2B7924AD0033BF7D /* HomeJobStatsView.swift */; };
+		399DD1272B793AEC00DAF56E /* HomeRecentJobListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DD1262B793AEC00DAF56E /* HomeRecentJobListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		395890262B791CDD0033BF7D /* HomeBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBannerView.swift; sourceTree = "<group>"; };
 		395890282B791E9C0033BF7D /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
 		3958902A2B7924AD0033BF7D /* HomeJobStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeJobStatsView.swift; sourceTree = "<group>"; };
+		399DD1262B793AEC00DAF56E /* HomeRecentJobListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRecentJobListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -235,6 +237,7 @@
 				395890262B791CDD0033BF7D /* HomeBannerView.swift */,
 				395890282B791E9C0033BF7D /* HomeHeaderView.swift */,
 				3958902A2B7924AD0033BF7D /* HomeJobStatsView.swift */,
+				399DD1262B793AEC00DAF56E /* HomeRecentJobListView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 				395890242B791CA30033BF7D /* HomeView.swift in Sources */,
 				39304A812B70092A00DCEB4B /* OnboardingView.swift in Sources */,
 				39304A842B7009F300DCEB4B /* TextView.swift in Sources */,
+				399DD1272B793AEC00DAF56E /* HomeRecentJobListView.swift in Sources */,
 				39304A6C2B6FFFBF00DCEB4B /* ContentView.swift in Sources */,
 				39304A6A2B6FFFBF00DCEB4B /* JobSpot_SwiftUIApp.swift in Sources */,
 				3958901E2B7916210033BF7D /* ForgotPasswordView.swift in Sources */,

@@ -9,18 +9,24 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        VStack {
-            Spacer().frame(height: 16)
-            HomeHeaderView()
+        ScrollView(showsIndicators: false) {
+            VStack {
+                Spacer().frame(height: 16)
+                HomeHeaderView()
 
-            Spacer().frame(height: 40)
-            HomeBannerView()
+                Spacer().frame(height: 40)
+                HomeBannerView()
 
-            Spacer().frame(height: 24)
-            HomeJobStatsView()
+                Spacer().frame(height: 24)
+                HomeJobStatsView()
+
+                Spacer().frame(height: 24)
+                HomeRecentJobListView()
+            }
         }
-        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
+        .background(Color.AppColor.appBackgroundColor)
         .padding([.horizontal], 16)
+        .background(Color.AppColor.appBackgroundColor)
     }
 }
 
