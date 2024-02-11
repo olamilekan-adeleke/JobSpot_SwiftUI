@@ -9,20 +9,22 @@ import SwiftUI
 
 struct BaseTextField: View {
     let title: String
+    let placeholder: String?
     @Binding private var text: String
 
     @State private var isEditing: Bool = false
 
-    init(title: String? = nil, text: Binding<String>) {
+    init(title: String? = nil, text: Binding<String>, placeholder: String? = nil) {
         self.title = title ?? "Text"
         self._text = text
+        self.placeholder = placeholder
     }
 
     var body: some View {
         VStack(alignment: .leading) {
             TextView(text: title)
             Spacer().frame(height: 5)
-            TextField("Enter \(title)", text: $text, onEditingChanged: { isEditing = $0 })
+            TextField(placeholder ?? "Enter \(title)", text: $text, onEditingChanged: { isEditing = $0 })
                 .textFieldStyle(BasTextFieldStyle())
                 .padding(.vertical, 12)
                 .padding(.horizontal, 16)
@@ -32,7 +34,6 @@ struct BaseTextField: View {
 
     var border: some View {
         RoundedRectangle(cornerRadius: 8)
-//            .background(Color.gray)
             .stroke(lineWidth: 2)
             .fill(Color.gray.opacity(0.2))
     }
