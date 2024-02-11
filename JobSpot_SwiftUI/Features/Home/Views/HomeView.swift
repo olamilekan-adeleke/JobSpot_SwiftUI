@@ -15,6 +15,9 @@ struct HomeView: View {
 
             Spacer().frame(height: 40)
             HomeBannerView()
+
+            Spacer().frame(height: 24)
+            HomeJobStatsView()
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
         .padding([.horizontal], 16)
