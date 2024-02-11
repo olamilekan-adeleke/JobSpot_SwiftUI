@@ -19,6 +19,9 @@
 		3958901A2B78D7D60033BF7D /* BaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395890192B78D7D60033BF7D /* BaseButton.swift */; };
 		3958901E2B7916210033BF7D /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3958901D2B7916210033BF7D /* ForgotPasswordView.swift */; };
 		395890202B7918C00033BF7D /* ResetPasswordCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3958901F2B7918C00033BF7D /* ResetPasswordCodeView.swift */; };
+		395890242B791CA30033BF7D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395890232B791CA30033BF7D /* HomeView.swift */; };
+		395890272B791CDD0033BF7D /* HomeBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395890262B791CDD0033BF7D /* HomeBannerView.swift */; };
+		395890292B791E9C0033BF7D /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395890282B791E9C0033BF7D /* HomeHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +38,9 @@
 		395890192B78D7D60033BF7D /* BaseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButton.swift; sourceTree = "<group>"; };
 		3958901D2B7916210033BF7D /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
 		3958901F2B7918C00033BF7D /* ResetPasswordCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordCodeView.swift; sourceTree = "<group>"; };
+		395890232B791CA30033BF7D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		395890262B791CDD0033BF7D /* HomeBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBannerView.swift; sourceTree = "<group>"; };
+		395890282B791E9C0033BF7D /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +122,8 @@
 		39304A7A2B70081300DCEB4B /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				395890222B791C120033BF7D /* Components */,
+				395890212B791C070033BF7D /* Views */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -211,6 +219,23 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		395890212B791C070033BF7D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				395890232B791CA30033BF7D /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		395890222B791C120033BF7D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				395890262B791CDD0033BF7D /* HomeBannerView.swift */,
+				395890282B791E9C0033BF7D /* HomeHeaderView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -282,10 +307,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				395890142B78BA550033BF7D /* LoginView.swift in Sources */,
+				395890272B791CDD0033BF7D /* HomeBannerView.swift in Sources */,
+				395890292B791E9C0033BF7D /* HomeHeaderView.swift in Sources */,
 				39304A8A2B7017B600DCEB4B /* UIColor+Extension.swift in Sources */,
 				395890202B7918C00033BF7D /* ResetPasswordCodeView.swift in Sources */,
 				3958901A2B78D7D60033BF7D /* BaseButton.swift in Sources */,
 				395890172B78C4710033BF7D /* BaseTextField.swift in Sources */,
+				395890242B791CA30033BF7D /* HomeView.swift in Sources */,
 				39304A812B70092A00DCEB4B /* OnboardingView.swift in Sources */,
 				39304A842B7009F300DCEB4B /* TextView.swift in Sources */,
 				39304A6C2B6FFFBF00DCEB4B /* ContentView.swift in Sources */,
