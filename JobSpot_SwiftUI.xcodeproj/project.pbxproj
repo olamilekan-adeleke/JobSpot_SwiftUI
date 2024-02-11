@@ -14,6 +14,9 @@
 		39304A812B70092A00DCEB4B /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39304A802B70092A00DCEB4B /* OnboardingView.swift */; };
 		39304A842B7009F300DCEB4B /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39304A832B7009F300DCEB4B /* TextView.swift */; };
 		39304A8A2B7017B600DCEB4B /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39304A892B7017B600DCEB4B /* UIColor+Extension.swift */; };
+		395890142B78BA550033BF7D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395890132B78BA550033BF7D /* LoginView.swift */; };
+		395890172B78C4710033BF7D /* BaseTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395890162B78C4710033BF7D /* BaseTextField.swift */; };
+		3958901A2B78D7D60033BF7D /* BaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395890192B78D7D60033BF7D /* BaseButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +28,9 @@
 		39304A802B70092A00DCEB4B /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		39304A832B7009F300DCEB4B /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		39304A892B7017B600DCEB4B /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		395890132B78BA550033BF7D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		395890162B78C4710033BF7D /* BaseTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTextField.swift; sourceTree = "<group>"; };
+		395890192B78D7D60033BF7D /* BaseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				39304A802B70092A00DCEB4B /* OnboardingView.swift */,
+				395890132B78BA550033BF7D /* LoginView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -143,6 +150,8 @@
 		39304A822B70098600DCEB4B /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				395890182B78D7C80033BF7D /* Buttons */,
+				395890152B78C0CD0033BF7D /* TextField */,
 				39304A852B700D2E00DCEB4B /* Text */,
 			);
 			path = Components;
@@ -162,6 +171,22 @@
 				39304A892B7017B600DCEB4B /* UIColor+Extension.swift */,
 			);
 			path = Extenstions;
+			sourceTree = "<group>";
+		};
+		395890152B78C0CD0033BF7D /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				395890162B78C4710033BF7D /* BaseTextField.swift */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
+		395890182B78D7C80033BF7D /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				395890192B78D7D60033BF7D /* BaseButton.swift */,
+			);
+			path = Buttons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +259,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				395890142B78BA550033BF7D /* LoginView.swift in Sources */,
 				39304A8A2B7017B600DCEB4B /* UIColor+Extension.swift in Sources */,
+				3958901A2B78D7D60033BF7D /* BaseButton.swift in Sources */,
+				395890172B78C4710033BF7D /* BaseTextField.swift in Sources */,
 				39304A812B70092A00DCEB4B /* OnboardingView.swift in Sources */,
 				39304A842B7009F300DCEB4B /* TextView.swift in Sources */,
 				39304A6C2B6FFFBF00DCEB4B /* ContentView.swift in Sources */,
