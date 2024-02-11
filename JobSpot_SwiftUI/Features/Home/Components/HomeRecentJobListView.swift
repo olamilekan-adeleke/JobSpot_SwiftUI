@@ -15,7 +15,7 @@ struct HomeRecentJobListView: View {
             Spacer().frame(height: 10)
 
             ForEach(Range(0 ... 4), id: \.self) { _ in
-                RecentJobItemView()
+                RecentJobItemView().padding(.bottom, 5)
             }
         }
         .background(Color.AppColor.appBackgroundColor)
