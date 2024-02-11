@@ -13,7 +13,7 @@ import SwiftUI
 extension Color {
     enum AppColor {
         static let primaryColor = Color(uiColor: UIColor(fromHex: "130160")!)
-        static let secondaryColor = Color(uiColor: UIColor(fromHex: "#D6CDFE"))
+        static let secondaryColor = Color(uiColor: UIColor(fromHex: "D6CDFE")!)
     }
 }
 
