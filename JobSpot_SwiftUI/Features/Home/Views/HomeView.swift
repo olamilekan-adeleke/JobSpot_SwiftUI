@@ -13,7 +13,7 @@ struct HomeView: View {
             Spacer().frame(height: 16)
             HomeHeaderView()
 
-            Spacer().frame(height: 20)
+            Spacer().frame(height: 40)
             HomeBannerView()
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)

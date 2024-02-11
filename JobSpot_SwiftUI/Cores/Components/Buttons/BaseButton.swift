@@ -38,7 +38,7 @@ struct BaseButtonStyle: ButtonStyle {
 // MARK: - Button Config
 
 extension BaseButton {
-    enum ButtonType { case primary, secondary }
+    enum ButtonType { case primary, secondary, custom(Color) }
 
     struct Config {
         let title: String
@@ -53,6 +53,7 @@ extension BaseButton {
             switch type {
                 case .primary: return BaseButtonStyle(buttonColor: Color.AppColor.primaryColor)
                 case .secondary: return BaseButtonStyle(buttonColor: Color.AppColor.secondaryColor)
+                case .custom(let color): return BaseButtonStyle(buttonColor: color)
             }
         }
     }
