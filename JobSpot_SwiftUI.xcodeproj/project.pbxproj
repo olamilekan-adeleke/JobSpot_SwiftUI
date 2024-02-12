@@ -107,6 +107,7 @@
 		39304A782B7007A200DCEB4B /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				399DD1282B795EF000DAF56E /* Jobs */,
 				39304A7A2B70081300DCEB4B /* Home */,
 				39304A792B7007FD00DCEB4B /* Auth */,
 			);
@@ -240,6 +241,21 @@
 				399DD1262B793AEC00DAF56E /* HomeRecentJobListView.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		399DD1282B795EF000DAF56E /* Jobs */ = {
+			isa = PBXGroup;
+			children = (
+				399DD1292B795F0500DAF56E /* Views */,
+			);
+			path = Jobs;
+			sourceTree = "<group>";
+		};
+		399DD1292B795F0500DAF56E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

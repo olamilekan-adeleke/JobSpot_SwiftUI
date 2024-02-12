@@ -52,6 +52,7 @@ private struct RecentJobItemView: View {
         }
         .padding(20)
         .background(Color.white)
+        .clipShape(RoundedRectangle(cornerRadius: 16))
     }
 
     func header() -> some View {
