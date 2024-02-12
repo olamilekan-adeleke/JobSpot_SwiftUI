@@ -43,7 +43,6 @@ struct LoginView: View {
                 TextView(attributedString: createAccountText(), size: 10, weight: .light)
             }
         }
-
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
         .padding([.horizontal, .vertical], 16)
     }
