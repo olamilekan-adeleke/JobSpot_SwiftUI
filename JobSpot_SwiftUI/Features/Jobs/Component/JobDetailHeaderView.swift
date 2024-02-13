@@ -21,14 +21,15 @@ struct JobDetailHeaderView: View {
                     }
                 }
             }
+            .padding(.vertical, 25)
             .frame(maxWidth: .infinity, maxHeight: 115)
             .background(Color(uiColor: UIColor(fromHex: "F3F2F2")!))
-            .padding(.top, 55)
+            .padding(.top, 60)
         }
         .overlay(
             Image("google_icon")
                 .resizable()
-                .frame(width: 60, height: 60)
+                .frame(width: 55, height: 55)
                 .padding(12)
                 .background(Color.gray.opacity(0.2))
                 .clipShape(Circle()),

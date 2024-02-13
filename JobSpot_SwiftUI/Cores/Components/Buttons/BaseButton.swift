@@ -16,6 +16,7 @@ struct BaseButton: View {
             TextView(text: config.title, size: 14, weight: .semibold, color: .white)
                 .frame(maxWidth: .infinity, maxHeight: 40)
         }
+        .frame(height: 40)
         .buttonStyle(config.buttonStyle())
     }
 }

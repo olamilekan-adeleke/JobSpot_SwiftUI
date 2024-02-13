@@ -31,7 +31,7 @@ struct JobDetailsDescriptionView: View {
             ForEach(list, id: \.self) { text in
                 HStack {
                     TextView(text: "\u{2022}", size: 12)
-                    TextView(text: "\(text)", size: 12).opacity(0.7)
+                    TextView(text: text, size: 12).opacity(0.7).fixedSize(horizontal: false, vertical: true)
                 }
                 .padding(.bottom, 2)
             }
@@ -46,6 +46,7 @@ struct JobDetailsDescriptionView: View {
                 text: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem ...",
                 size: 12
             )
+            .fixedSize(horizontal: false, vertical: true)
             .opacity(0.7)
         }
     }
