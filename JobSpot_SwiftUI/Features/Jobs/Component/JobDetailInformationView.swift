@@ -15,14 +15,17 @@ struct JobDetailInformationView: View {
 
     var body: some View {
         VStack(alignment: .leading) {
-            TextView(text: "Informations", size: 14, weight: .bold)
-            optionView(title: "Qualification", subtitle: "Bachelor’s Degree")
-            Divider()
-            optionView(title: "Experience", subtitle: "3 Years")
-            Divider()
-            optionView(title: "Job Type", subtitle: "Full-Time")
-            Divider()
-            optionView(title: "Specialization", subtitle: "Design")
+            VStack(alignment: .leading) {
+                TextView(text: "Informations", size: 14, weight: .bold)
+                optionView(title: "Qualification", subtitle: "Bachelor’s Degree")
+                Divider()
+                optionView(title: "Experience", subtitle: "3 Years")
+                Divider()
+                optionView(title: "Job Type", subtitle: "Full-Time")
+                Divider()
+                optionView(title: "Specialization", subtitle: "Design")
+                Divider()
+            }
 
             Spacer().frame(height: 20)
             facilitiesView(list: facilitiesList)

@@ -24,6 +24,8 @@ struct JobDetailView: View {
 
                 Spacer().frame(height: 20)
                 BaseButton(config: .init(title: "Apply", type: .primary)) {}
+                    .padding(.horizontal, 16)
+                Spacer().frame(height: 30)
             }
             .background(Color.AppColor.appBackgroundColor)
             .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
