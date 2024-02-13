@@ -32,9 +32,9 @@ struct TextView: View {
 
     var body: some View {
         if attributedString != nil {
-            return Text(attributedString!).font(.system(size: size, weight: weight))
+            return Text(attributedString!).font(.system(size: size, weight: weight)).foregroundColor(color)
         }
 
-        return Text(text).font(.system(size: size, weight: weight))
+        return Text(text).font(.system(size: size, weight: weight)).foregroundColor(color)
     }
 }
