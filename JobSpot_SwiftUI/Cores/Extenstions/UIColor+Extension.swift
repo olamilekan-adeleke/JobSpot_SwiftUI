@@ -16,6 +16,10 @@ extension Color {
         static let secondaryColor = Color(uiColor: UIColor(fromHex: "D6CDFE")!)
 
         static let appBackgroundColor = Color(uiColor: UIColor(fromHex: "F9F9F9")!)
+
+        // Text Color
+        static let textColor = Color(uiColor: UIColor(fromHex: "150B3D")!)
+        static let textSubColor = Color(uiColor: UIColor(fromHex: "524B6B")!)
     }
 }
 

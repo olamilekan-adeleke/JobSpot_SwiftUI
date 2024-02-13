@@ -9,13 +9,27 @@ import SwiftUI
 
 struct JobDetailView: View {
     var body: some View {
-        VStack {
-            JobDetailHeaderView()
+        ScrollView(showsIndicators: false) {
+            VStack {
+                JobDetailHeaderView()
+
+                Spacer().frame(height: 20)
+                JobDetailsDescriptionView()
+
+                Spacer().frame(height: 20)
+                JobDetailLocationView()
+
+                Spacer().frame(height: 20)
+                JobDetailInformationView()
+
+                Spacer().frame(height: 20)
+                BaseButton(config: .init(title: "Apply", type: .primary)) {}
+            }
+            .background(Color.AppColor.appBackgroundColor)
+            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
+            .background(Color.AppColor.appBackgroundColor)
+            .padding(.vertical, 16)
         }
-        .background(Color.AppColor.appBackgroundColor)
-        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
-        .background(Color.AppColor.appBackgroundColor)
-        .padding(.vertical, 16)
     }
 }
 

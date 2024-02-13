@@ -26,6 +26,9 @@
 		399DD1272B793AEC00DAF56E /* HomeRecentJobListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DD1262B793AEC00DAF56E /* HomeRecentJobListView.swift */; };
 		39B9D8082B7A9A8F0082A781 /* JobDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B9D8072B7A9A8F0082A781 /* JobDetailView.swift */; };
 		39B9D80B2B7A9C750082A781 /* JobDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B9D80A2B7A9C750082A781 /* JobDetailHeaderView.swift */; };
+		39F3A9A02B7BD1ED000A447A /* JobDetailsDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F3A99F2B7BD1ED000A447A /* JobDetailsDescriptionView.swift */; };
+		39F3A9A22B7BDB08000A447A /* JobDetailLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F3A9A12B7BDB08000A447A /* JobDetailLocationView.swift */; };
+		39F3A9A42B7BE7FC000A447A /* JobDetailInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F3A9A32B7BE7FC000A447A /* JobDetailInformationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +52,9 @@
 		399DD1262B793AEC00DAF56E /* HomeRecentJobListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRecentJobListView.swift; sourceTree = "<group>"; };
 		39B9D8072B7A9A8F0082A781 /* JobDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailView.swift; sourceTree = "<group>"; };
 		39B9D80A2B7A9C750082A781 /* JobDetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailHeaderView.swift; sourceTree = "<group>"; };
+		39F3A99F2B7BD1ED000A447A /* JobDetailsDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailsDescriptionView.swift; sourceTree = "<group>"; };
+		39F3A9A12B7BDB08000A447A /* JobDetailLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailLocationView.swift; sourceTree = "<group>"; };
+		39F3A9A32B7BE7FC000A447A /* JobDetailInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailInformationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -268,6 +274,9 @@
 			isa = PBXGroup;
 			children = (
 				39B9D80A2B7A9C750082A781 /* JobDetailHeaderView.swift */,
+				39F3A99F2B7BD1ED000A447A /* JobDetailsDescriptionView.swift */,
+				39F3A9A12B7BDB08000A447A /* JobDetailLocationView.swift */,
+				39F3A9A32B7BE7FC000A447A /* JobDetailInformationView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -352,10 +361,13 @@
 				395890172B78C4710033BF7D /* BaseTextField.swift in Sources */,
 				39B9D8082B7A9A8F0082A781 /* JobDetailView.swift in Sources */,
 				3958902B2B7924AD0033BF7D /* HomeJobStatsView.swift in Sources */,
+				39F3A9A02B7BD1ED000A447A /* JobDetailsDescriptionView.swift in Sources */,
 				395890242B791CA30033BF7D /* HomeView.swift in Sources */,
+				39F3A9A22B7BDB08000A447A /* JobDetailLocationView.swift in Sources */,
 				39304A812B70092A00DCEB4B /* OnboardingView.swift in Sources */,
 				39304A842B7009F300DCEB4B /* TextView.swift in Sources */,
 				399DD1272B793AEC00DAF56E /* HomeRecentJobListView.swift in Sources */,
+				39F3A9A42B7BE7FC000A447A /* JobDetailInformationView.swift in Sources */,
 				39304A6C2B6FFFBF00DCEB4B /* ContentView.swift in Sources */,
 				39304A6A2B6FFFBF00DCEB4B /* JobSpot_SwiftUIApp.swift in Sources */,
 				3958901E2B7916210033BF7D /* ForgotPasswordView.swift in Sources */,
