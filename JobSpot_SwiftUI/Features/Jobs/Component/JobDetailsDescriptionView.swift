@@ -30,9 +30,8 @@ struct JobDetailsDescriptionView: View {
             Spacer().frame(height: 10)
             ForEach(list, id: \.self) { text in
                 HStack {
-                    TextView(text: "\u{2022}", size: 12, color: Color.AppColor.secondaryColor)
-                    TextView(text: "\(text)", size: 12, color: Color.AppColor.secondaryColor)
-                        .opacity(0.7)
+                    TextView(text: "\u{2022}", size: 12)
+                    TextView(text: "\(text)", size: 12).opacity(0.7)
                 }
                 .padding(.bottom, 2)
             }
@@ -45,8 +44,7 @@ struct JobDetailsDescriptionView: View {
             Spacer().frame(height: 10)
             TextView(
                 text: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem ...",
-                size: 12,
-                color: Color.AppColor.secondaryColor
+                size: 12
             )
             .opacity(0.7)
         }

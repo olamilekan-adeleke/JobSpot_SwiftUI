@@ -13,7 +13,7 @@ struct BaseButton: View {
 
     var body: some View {
         Button(action: action) {
-            TextView(text: config.title, size: 14, weight: .semibold)
+            TextView(text: config.title, size: 14, weight: .semibold, color: .white)
                 .frame(maxWidth: .infinity, maxHeight: 40)
         }
         .buttonStyle(config.buttonStyle())

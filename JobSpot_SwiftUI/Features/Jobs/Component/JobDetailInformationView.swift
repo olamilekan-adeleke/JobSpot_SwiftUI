@@ -38,9 +38,8 @@ struct JobDetailInformationView: View {
             Spacer().frame(height: 10)
             ForEach(list, id: \.self) { text in
                 HStack {
-                    TextView(text: "\u{2022}", size: 12, color: Color.AppColor.secondaryColor)
-                    TextView(text: "\(text)", size: 12, color: Color.AppColor.secondaryColor)
-                        .opacity(0.7)
+                    TextView(text: "\u{2022}", size: 12)
+                    TextView(text: "\(text)", size: 12).opacity(0.7)
                 }.padding(.bottom, 2)
             }
         }
