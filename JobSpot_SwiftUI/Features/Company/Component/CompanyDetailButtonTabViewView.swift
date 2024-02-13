@@ -44,7 +44,7 @@ struct CompanyDetailButtonTabViewView: View {
         if choice == tabs.first {
             CompanyDetailAboutView()
         } else if choice == tabs[1] {
-            VStack {}
+            CompanyDetailJobListView()
         } else { VStack {} }
     }
 

@@ -22,7 +22,7 @@ struct HomeRecentJobListView: View {
     }
 }
 
-private struct RecentJobItemView: View {
+struct RecentJobItemView: View {
     var body: some View {
         VStack {
             header()
