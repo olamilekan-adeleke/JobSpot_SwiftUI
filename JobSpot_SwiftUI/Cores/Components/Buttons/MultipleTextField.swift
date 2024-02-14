@@ -1,56 +1,52 @@
 //
-//  BaseTextField.swift
+//  MultipleTextField.swift
 //  JobSpot_SwiftUI
 //
-//  Created by Enigma Kod on 11/02/2024.
+//  Created by Enigma Kod on 14/02/2024.
 //
 
 import SwiftUI
 
-struct BaseTextField: View {
+struct MultipleTextField: View {
     let title: String
     let placeholder: String?
-
+        
     @Binding private var text: String
-    @State private var isEditing: Bool = false
-
-    init(title: String? = nil, text: Binding<String>, placeholder: String? = nil) {
+        
+    private let estimatedLineHeight: CGFloat = 22 // Estimated line height for the system font at default size
+    let numberOfLines: Int
+        
+    init(title: String? = nil, text: Binding<String>, placeholder: String? = nil, numberOfLines: Int? = nil) {
         self.title = title ?? "Text"
         self._text = text
         self.placeholder = placeholder
+        self.numberOfLines = numberOfLines ?? 1
     }
-
+        
     var body: some View {
         VStack(alignment: .leading) {
             TextView(text: title)
             Spacer().frame(height: 5)
-            TextField(placeholder ?? "Enter \(title)", text: $text, onEditingChanged: { isEditing = $0 })
+            TextEditor(text: $text)
+                .scrollContentBackground(.hidden)
                 .textFieldStyle(BasTextFieldStyle())
+                .frame(height: estimatedLineHeight * CGFloat(numberOfLines))
                 .padding(.vertical, 12)
                 .padding(.horizontal, 16)
                 .background(border)
-                .multilineTextAlignment(.leading)
+                .font(.system(.footnote, weight: .light))
         }
     }
-
+        
     var border: some View {
         RoundedRectangle(cornerRadius: 8)
             .stroke(lineWidth: 2)
             .fill(Color.gray.opacity(0.2))
     }
 }
-
-// MARK: - Text Style
-
-struct BasTextFieldStyle: TextFieldStyle {
-    func _body(configuration: TextField<_Label>) -> some View {
-        configuration
-            .font(.system(.footnote, weight: .light))
-    }
-}
-
-// struct BaseTextField_Previews: PreviewProvider {
+    
+// struct MultipleTextField_Previews: PreviewProvider {
 //    static var previews: some View {
-//        BaseTextField()
+//        MultipleTextField()
 //    }
 // }
