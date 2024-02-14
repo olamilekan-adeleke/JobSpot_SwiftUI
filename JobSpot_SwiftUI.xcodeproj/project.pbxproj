@@ -14,6 +14,29 @@
 		39304A812B70092A00DCEB4B /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39304A802B70092A00DCEB4B /* OnboardingView.swift */; };
 		39304A842B7009F300DCEB4B /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39304A832B7009F300DCEB4B /* TextView.swift */; };
 		39304A8A2B7017B600DCEB4B /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39304A892B7017B600DCEB4B /* UIColor+Extension.swift */; };
+		395890142B78BA550033BF7D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395890132B78BA550033BF7D /* LoginView.swift */; };
+		395890172B78C4710033BF7D /* BaseTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395890162B78C4710033BF7D /* BaseTextField.swift */; };
+		3958901A2B78D7D60033BF7D /* BaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395890192B78D7D60033BF7D /* BaseButton.swift */; };
+		3958901E2B7916210033BF7D /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3958901D2B7916210033BF7D /* ForgotPasswordView.swift */; };
+		395890202B7918C00033BF7D /* ResetPasswordCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3958901F2B7918C00033BF7D /* ResetPasswordCodeView.swift */; };
+		395890242B791CA30033BF7D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395890232B791CA30033BF7D /* HomeView.swift */; };
+		395890272B791CDD0033BF7D /* HomeBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395890262B791CDD0033BF7D /* HomeBannerView.swift */; };
+		395890292B791E9C0033BF7D /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395890282B791E9C0033BF7D /* HomeHeaderView.swift */; };
+		3958902B2B7924AD0033BF7D /* HomeJobStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3958902A2B7924AD0033BF7D /* HomeJobStatsView.swift */; };
+		3963C3852B7C12BD009ADAC2 /* CompanyDetailAboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3963C3842B7C12BD009ADAC2 /* CompanyDetailAboutView.swift */; };
+		3963C3872B7C1BBD009ADAC2 /* CompanyDetailJobListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3963C3862B7C1BBC009ADAC2 /* CompanyDetailJobListView.swift */; };
+		3963C3892B7C2A35009ADAC2 /* JobApplicationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3963C3882B7C2A35009ADAC2 /* JobApplicationView.swift */; };
+		3963C38D2B7C2BAE009ADAC2 /* UploadCVView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3963C38C2B7C2BAE009ADAC2 /* UploadCVView.swift */; };
+		3963C38F2B7C39ED009ADAC2 /* MultipleTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3963C38E2B7C39ED009ADAC2 /* MultipleTextField.swift */; };
+		399DD1272B793AEC00DAF56E /* HomeRecentJobListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DD1262B793AEC00DAF56E /* HomeRecentJobListView.swift */; };
+		39B9D8082B7A9A8F0082A781 /* JobDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B9D8072B7A9A8F0082A781 /* JobDetailView.swift */; };
+		39B9D80B2B7A9C750082A781 /* JobDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B9D80A2B7A9C750082A781 /* JobDetailHeaderView.swift */; };
+		39F3A9A02B7BD1ED000A447A /* JobDetailsDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F3A99F2B7BD1ED000A447A /* JobDetailsDescriptionView.swift */; };
+		39F3A9A22B7BDB08000A447A /* JobDetailLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F3A9A12B7BDB08000A447A /* JobDetailLocationView.swift */; };
+		39F3A9A42B7BE7FC000A447A /* JobDetailInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F3A9A32B7BE7FC000A447A /* JobDetailInformationView.swift */; };
+		39F3A9A92B7BF261000A447A /* CompanyDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F3A9A82B7BF261000A447A /* CompanyDetailsView.swift */; };
+		39F3A9AB2B7BF28B000A447A /* CompanyDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F3A9AA2B7BF28B000A447A /* CompanyDetailHeaderView.swift */; };
+		39F3A9AD2B7BF578000A447A /* CompanyDetailButtonTabViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F3A9AC2B7BF578000A447A /* CompanyDetailButtonTabViewView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +48,29 @@
 		39304A802B70092A00DCEB4B /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		39304A832B7009F300DCEB4B /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		39304A892B7017B600DCEB4B /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		395890132B78BA550033BF7D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		395890162B78C4710033BF7D /* BaseTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTextField.swift; sourceTree = "<group>"; };
+		395890192B78D7D60033BF7D /* BaseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButton.swift; sourceTree = "<group>"; };
+		3958901D2B7916210033BF7D /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		3958901F2B7918C00033BF7D /* ResetPasswordCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordCodeView.swift; sourceTree = "<group>"; };
+		395890232B791CA30033BF7D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		395890262B791CDD0033BF7D /* HomeBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBannerView.swift; sourceTree = "<group>"; };
+		395890282B791E9C0033BF7D /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
+		3958902A2B7924AD0033BF7D /* HomeJobStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeJobStatsView.swift; sourceTree = "<group>"; };
+		3963C3842B7C12BD009ADAC2 /* CompanyDetailAboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyDetailAboutView.swift; sourceTree = "<group>"; };
+		3963C3862B7C1BBC009ADAC2 /* CompanyDetailJobListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyDetailJobListView.swift; sourceTree = "<group>"; };
+		3963C3882B7C2A35009ADAC2 /* JobApplicationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobApplicationView.swift; sourceTree = "<group>"; };
+		3963C38C2B7C2BAE009ADAC2 /* UploadCVView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadCVView.swift; sourceTree = "<group>"; };
+		3963C38E2B7C39ED009ADAC2 /* MultipleTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleTextField.swift; sourceTree = "<group>"; };
+		399DD1262B793AEC00DAF56E /* HomeRecentJobListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRecentJobListView.swift; sourceTree = "<group>"; };
+		39B9D8072B7A9A8F0082A781 /* JobDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailView.swift; sourceTree = "<group>"; };
+		39B9D80A2B7A9C750082A781 /* JobDetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailHeaderView.swift; sourceTree = "<group>"; };
+		39F3A99F2B7BD1ED000A447A /* JobDetailsDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailsDescriptionView.swift; sourceTree = "<group>"; };
+		39F3A9A12B7BDB08000A447A /* JobDetailLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailLocationView.swift; sourceTree = "<group>"; };
+		39F3A9A32B7BE7FC000A447A /* JobDetailInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailInformationView.swift; sourceTree = "<group>"; };
+		39F3A9A82B7BF261000A447A /* CompanyDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyDetailsView.swift; sourceTree = "<group>"; };
+		39F3A9AA2B7BF28B000A447A /* CompanyDetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyDetailHeaderView.swift; sourceTree = "<group>"; };
+		39F3A9AC2B7BF578000A447A /* CompanyDetailButtonTabViewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyDetailButtonTabViewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +133,8 @@
 		39304A782B7007A200DCEB4B /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				39F3A9A52B7BF206000A447A /* Company */,
+				399DD1282B795EF000DAF56E /* Jobs */,
 				39304A7A2B70081300DCEB4B /* Home */,
 				39304A792B7007FD00DCEB4B /* Auth */,
 			);
@@ -96,6 +144,7 @@
 		39304A792B7007FD00DCEB4B /* Auth */ = {
 			isa = PBXGroup;
 			children = (
+				3958901B2B7915FA0033BF7D /* ForgotPassword */,
 				39304A7C2B70084B00DCEB4B /* Onboarding */,
 				39304A7B2B70084500DCEB4B /* Login */,
 			);
@@ -105,6 +154,8 @@
 		39304A7A2B70081300DCEB4B /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				395890222B791C120033BF7D /* Components */,
+				395890212B791C070033BF7D /* Views */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -129,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				39304A802B70092A00DCEB4B /* OnboardingView.swift */,
+				395890132B78BA550033BF7D /* LoginView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -143,6 +195,8 @@
 		39304A822B70098600DCEB4B /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				395890182B78D7C80033BF7D /* Buttons */,
+				395890152B78C0CD0033BF7D /* TextField */,
 				39304A852B700D2E00DCEB4B /* Text */,
 			);
 			path = Components;
@@ -162,6 +216,133 @@
 				39304A892B7017B600DCEB4B /* UIColor+Extension.swift */,
 			);
 			path = Extenstions;
+			sourceTree = "<group>";
+		};
+		395890152B78C0CD0033BF7D /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				395890162B78C4710033BF7D /* BaseTextField.swift */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
+		395890182B78D7C80033BF7D /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				395890192B78D7D60033BF7D /* BaseButton.swift */,
+				3963C38E2B7C39ED009ADAC2 /* MultipleTextField.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		3958901B2B7915FA0033BF7D /* ForgotPassword */ = {
+			isa = PBXGroup;
+			children = (
+				3958901C2B79160F0033BF7D /* Views */,
+			);
+			path = ForgotPassword;
+			sourceTree = "<group>";
+		};
+		3958901C2B79160F0033BF7D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3958901D2B7916210033BF7D /* ForgotPasswordView.swift */,
+				3958901F2B7918C00033BF7D /* ResetPasswordCodeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		395890212B791C070033BF7D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				395890232B791CA30033BF7D /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		395890222B791C120033BF7D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				395890262B791CDD0033BF7D /* HomeBannerView.swift */,
+				395890282B791E9C0033BF7D /* HomeHeaderView.swift */,
+				3958902A2B7924AD0033BF7D /* HomeJobStatsView.swift */,
+				399DD1262B793AEC00DAF56E /* HomeRecentJobListView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		3963C38A2B7C2A3A009ADAC2 /* JobDetails */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = JobDetails;
+			sourceTree = "<group>";
+		};
+		3963C38B2B7C2A44009ADAC2 /* JobApplication */ = {
+			isa = PBXGroup;
+			children = (
+				39F3A99F2B7BD1ED000A447A /* JobDetailsDescriptionView.swift */,
+				39F3A9A12B7BDB08000A447A /* JobDetailLocationView.swift */,
+				39F3A9A32B7BE7FC000A447A /* JobDetailInformationView.swift */,
+				3963C38C2B7C2BAE009ADAC2 /* UploadCVView.swift */,
+			);
+			path = JobApplication;
+			sourceTree = "<group>";
+		};
+		399DD1282B795EF000DAF56E /* Jobs */ = {
+			isa = PBXGroup;
+			children = (
+				39B9D8092B7A9BEE0082A781 /* Component */,
+				399DD1292B795F0500DAF56E /* Views */,
+			);
+			path = Jobs;
+			sourceTree = "<group>";
+		};
+		399DD1292B795F0500DAF56E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				39B9D8072B7A9A8F0082A781 /* JobDetailView.swift */,
+				3963C3882B7C2A35009ADAC2 /* JobApplicationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		39B9D8092B7A9BEE0082A781 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				3963C38B2B7C2A44009ADAC2 /* JobApplication */,
+				3963C38A2B7C2A3A009ADAC2 /* JobDetails */,
+				39B9D80A2B7A9C750082A781 /* JobDetailHeaderView.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		39F3A9A52B7BF206000A447A /* Company */ = {
+			isa = PBXGroup;
+			children = (
+				39F3A9A72B7BF247000A447A /* Component */,
+				39F3A9A62B7BF224000A447A /* View */,
+			);
+			path = Company;
+			sourceTree = "<group>";
+		};
+		39F3A9A62B7BF224000A447A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				39F3A9A82B7BF261000A447A /* CompanyDetailsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		39F3A9A72B7BF247000A447A /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				3963C3862B7C1BBC009ADAC2 /* CompanyDetailJobListView.swift */,
+				39F3A9AA2B7BF28B000A447A /* CompanyDetailHeaderView.swift */,
+				39F3A9AC2B7BF578000A447A /* CompanyDetailButtonTabViewView.swift */,
+				3963C3842B7C12BD009ADAC2 /* CompanyDetailAboutView.swift */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,11 +415,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39F3A9AB2B7BF28B000A447A /* CompanyDetailHeaderView.swift in Sources */,
+				395890142B78BA550033BF7D /* LoginView.swift in Sources */,
+				3963C38D2B7C2BAE009ADAC2 /* UploadCVView.swift in Sources */,
+				395890272B791CDD0033BF7D /* HomeBannerView.swift in Sources */,
+				3963C3892B7C2A35009ADAC2 /* JobApplicationView.swift in Sources */,
+				395890292B791E9C0033BF7D /* HomeHeaderView.swift in Sources */,
+				39B9D80B2B7A9C750082A781 /* JobDetailHeaderView.swift in Sources */,
 				39304A8A2B7017B600DCEB4B /* UIColor+Extension.swift in Sources */,
+				395890202B7918C00033BF7D /* ResetPasswordCodeView.swift in Sources */,
+				3963C3872B7C1BBD009ADAC2 /* CompanyDetailJobListView.swift in Sources */,
+				3958901A2B78D7D60033BF7D /* BaseButton.swift in Sources */,
+				395890172B78C4710033BF7D /* BaseTextField.swift in Sources */,
+				39B9D8082B7A9A8F0082A781 /* JobDetailView.swift in Sources */,
+				39F3A9A92B7BF261000A447A /* CompanyDetailsView.swift in Sources */,
+				3958902B2B7924AD0033BF7D /* HomeJobStatsView.swift in Sources */,
+				3963C38F2B7C39ED009ADAC2 /* MultipleTextField.swift in Sources */,
+				39F3A9AD2B7BF578000A447A /* CompanyDetailButtonTabViewView.swift in Sources */,
+				39F3A9A02B7BD1ED000A447A /* JobDetailsDescriptionView.swift in Sources */,
+				395890242B791CA30033BF7D /* HomeView.swift in Sources */,
+				3963C3852B7C12BD009ADAC2 /* CompanyDetailAboutView.swift in Sources */,
+				39F3A9A22B7BDB08000A447A /* JobDetailLocationView.swift in Sources */,
 				39304A812B70092A00DCEB4B /* OnboardingView.swift in Sources */,
 				39304A842B7009F300DCEB4B /* TextView.swift in Sources */,
+				399DD1272B793AEC00DAF56E /* HomeRecentJobListView.swift in Sources */,
+				39F3A9A42B7BE7FC000A447A /* JobDetailInformationView.swift in Sources */,
 				39304A6C2B6FFFBF00DCEB4B /* ContentView.swift in Sources */,
 				39304A6A2B6FFFBF00DCEB4B /* JobSpot_SwiftUIApp.swift in Sources */,
+				3958901E2B7916210033BF7D /* ForgotPasswordView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
