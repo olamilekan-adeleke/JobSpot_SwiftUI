@@ -145,7 +145,6 @@
 			isa = PBXGroup;
 			children = (
 				3958901B2B7915FA0033BF7D /* ForgotPassword */,
-				39304A7C2B70084B00DCEB4B /* Onboarding */,
 				39304A7B2B70084500DCEB4B /* Login */,
 			);
 			path = Auth;
@@ -167,13 +166,6 @@
 				39304A7D2B70088000DCEB4B /* View */,
 			);
 			path = Login;
-			sourceTree = "<group>";
-		};
-		39304A7C2B70084B00DCEB4B /* Onboarding */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Onboarding;
 			sourceTree = "<group>";
 		};
 		39304A7D2B70088000DCEB4B /* View */ = {
