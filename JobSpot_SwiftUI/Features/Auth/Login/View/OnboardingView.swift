@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct OnboardingView: View {
+    @EnvironmentObject var appNavigator: AppNavigationState
+
     var body: some View {
         VStack {
             TextView(text: "Jobspot", weight: .semibold)
@@ -62,7 +64,8 @@ extension OnboardingView {
     }
 
     private func onButtonTapped() {
-        print("Tapped")
+        let loginRoute: AppRoute = .auth(.login)
+        appNavigator.push(loginRoute)
     }
 }
 

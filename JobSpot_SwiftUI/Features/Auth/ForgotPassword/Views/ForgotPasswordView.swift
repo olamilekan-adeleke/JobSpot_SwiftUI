@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct ForgotPasswordView: View {
-    @State private var emailText = ""
+    @EnvironmentObject var appNavigator: AppNavigationState
+    @State private var emailText: String = ""
 
     var body: some View {
         VStack {
@@ -35,7 +36,9 @@ struct ForgotPasswordView: View {
             }
 
             Group {
-                BaseButton(config: .init(title: "Reset Password", type: .primary)) {}
+                BaseButton(config: .init(title: "Reset Password", type: .primary)) {
+                    appNavigator.push(AppRoute.auth(.resetPassword(emailText)))
+                }
             }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)

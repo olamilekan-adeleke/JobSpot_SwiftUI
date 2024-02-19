@@ -8,14 +8,21 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var appNavigator = AppNavigationState()
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        Group {
+            NavigationStack(path: $appNavigator.routes) {
+                OnboardingView() // .environmentObject(appNavigator)
+                    .navigationDestination(for: AppRoute.self) { route in
+                        handleNavigationDestination(route)
+                    }
+            }
+            .onChange(of: appNavigator.routes, perform: { newValue in
+                print("State:: \(newValue)")
+            })
+            .navigationViewStyle(.stack)
+        }.environmentObject(appNavigator)
     }
 }
 
