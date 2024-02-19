@@ -19,6 +19,7 @@ struct ContentView: View {
                     }
             }
             .onChange(of: appNavigator.routes, perform: { newValue in
+                    // TODO: Create a Logger for Navigator to format and pretty print this State:: [JobSpot_SwiftUI.AppRoute.auth(JobSpot_SwiftUI.OnboardingRoutes.login), JobSpot_SwiftUI.AppRoute.home(JobSpot_SwiftUI.HomeRoutes.homeView)]
                 print("State:: \(newValue)")
             })
             .navigationViewStyle(.stack)

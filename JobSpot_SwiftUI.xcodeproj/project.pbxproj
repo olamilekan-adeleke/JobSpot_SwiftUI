@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		392EB1BF2B812A2900BF2C9D /* NavigationKey+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392EB1BE2B812A2900BF2C9D /* NavigationKey+Extension.swift */; };
 		392EB1C12B812AB000BF2C9D /* AppRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392EB1C02B812AB000BF2C9D /* AppRoutes.swift */; };
 		39304A6A2B6FFFBF00DCEB4B /* JobSpot_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39304A692B6FFFBF00DCEB4B /* JobSpot_SwiftUIApp.swift */; };
 		39304A6C2B6FFFBF00DCEB4B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39304A6B2B6FFFBF00DCEB4B /* ContentView.swift */; };
@@ -34,6 +33,10 @@
 		39B9D8082B7A9A8F0082A781 /* JobDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B9D8072B7A9A8F0082A781 /* JobDetailView.swift */; };
 		39B9D80B2B7A9C750082A781 /* JobDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B9D80A2B7A9C750082A781 /* JobDetailHeaderView.swift */; };
 		39EF424F2B8332A500059A20 /* AppNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EF424E2B8332A500059A20 /* AppNavigation.swift */; };
+		39EF42512B835D5E00059A20 /* auth_route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EF42502B835D5E00059A20 /* auth_route.swift */; };
+		39EF42532B835D8900059A20 /* home_route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EF42522B835D8900059A20 /* home_route.swift */; };
+		39EF42552B835DFA00059A20 /* company_routes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EF42542B835DFA00059A20 /* company_routes.swift */; };
+		39EF42572B835F8000059A20 /* job_routes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EF42562B835F8000059A20 /* job_routes.swift */; };
 		39F3A9A02B7BD1ED000A447A /* JobDetailsDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F3A99F2B7BD1ED000A447A /* JobDetailsDescriptionView.swift */; };
 		39F3A9A22B7BDB08000A447A /* JobDetailLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F3A9A12B7BDB08000A447A /* JobDetailLocationView.swift */; };
 		39F3A9A42B7BE7FC000A447A /* JobDetailInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F3A9A32B7BE7FC000A447A /* JobDetailInformationView.swift */; };
@@ -43,7 +46,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		392EB1BE2B812A2900BF2C9D /* NavigationKey+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NavigationKey+Extension.swift"; sourceTree = "<group>"; };
 		392EB1C02B812AB000BF2C9D /* AppRoutes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRoutes.swift; sourceTree = "<group>"; };
 		39304A662B6FFFBF00DCEB4B /* JobSpot_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JobSpot_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39304A692B6FFFBF00DCEB4B /* JobSpot_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobSpot_SwiftUIApp.swift; sourceTree = "<group>"; };
@@ -71,6 +73,10 @@
 		39B9D8072B7A9A8F0082A781 /* JobDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailView.swift; sourceTree = "<group>"; };
 		39B9D80A2B7A9C750082A781 /* JobDetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailHeaderView.swift; sourceTree = "<group>"; };
 		39EF424E2B8332A500059A20 /* AppNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigation.swift; sourceTree = "<group>"; };
+		39EF42502B835D5E00059A20 /* auth_route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = auth_route.swift; sourceTree = "<group>"; };
+		39EF42522B835D8900059A20 /* home_route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home_route.swift; sourceTree = "<group>"; };
+		39EF42542B835DFA00059A20 /* company_routes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = company_routes.swift; sourceTree = "<group>"; };
+		39EF42562B835F8000059A20 /* job_routes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = job_routes.swift; sourceTree = "<group>"; };
 		39F3A99F2B7BD1ED000A447A /* JobDetailsDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailsDescriptionView.swift; sourceTree = "<group>"; };
 		39F3A9A12B7BDB08000A447A /* JobDetailLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailLocationView.swift; sourceTree = "<group>"; };
 		39F3A9A32B7BE7FC000A447A /* JobDetailInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailInformationView.swift; sourceTree = "<group>"; };
@@ -93,7 +99,6 @@
 		392EB1BD2B812A0300BF2C9D /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
-				392EB1BE2B812A2900BF2C9D /* NavigationKey+Extension.swift */,
 				392EB1C02B812AB000BF2C9D /* AppRoutes.swift */,
 				39EF424E2B8332A500059A20 /* AppNavigation.swift */,
 			);
@@ -150,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				39F3A9A52B7BF206000A447A /* Company */,
+				39EF42542B835DFA00059A20 /* company_routes.swift */,
 				399DD1282B795EF000DAF56E /* Jobs */,
 				39304A7A2B70081300DCEB4B /* Home */,
 				39304A792B7007FD00DCEB4B /* Auth */,
@@ -162,6 +168,7 @@
 			children = (
 				3958901B2B7915FA0033BF7D /* ForgotPassword */,
 				39304A7B2B70084500DCEB4B /* Login */,
+				39EF42502B835D5E00059A20 /* auth_route.swift */,
 			);
 			path = Auth;
 			sourceTree = "<group>";
@@ -171,6 +178,7 @@
 			children = (
 				395890222B791C120033BF7D /* Components */,
 				395890212B791C070033BF7D /* Views */,
+				39EF42522B835D8900059A20 /* home_route.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -283,6 +291,9 @@
 		3963C38A2B7C2A3A009ADAC2 /* JobDetails */ = {
 			isa = PBXGroup;
 			children = (
+				39F3A9A12B7BDB08000A447A /* JobDetailLocationView.swift */,
+				39F3A9A32B7BE7FC000A447A /* JobDetailInformationView.swift */,
+				39F3A99F2B7BD1ED000A447A /* JobDetailsDescriptionView.swift */,
 			);
 			path = JobDetails;
 			sourceTree = "<group>";
@@ -290,9 +301,6 @@
 		3963C38B2B7C2A44009ADAC2 /* JobApplication */ = {
 			isa = PBXGroup;
 			children = (
-				39F3A99F2B7BD1ED000A447A /* JobDetailsDescriptionView.swift */,
-				39F3A9A12B7BDB08000A447A /* JobDetailLocationView.swift */,
-				39F3A9A32B7BE7FC000A447A /* JobDetailInformationView.swift */,
 				3963C38C2B7C2BAE009ADAC2 /* UploadCVView.swift */,
 			);
 			path = JobApplication;
@@ -303,6 +311,7 @@
 			children = (
 				39B9D8092B7A9BEE0082A781 /* Component */,
 				399DD1292B795F0500DAF56E /* Views */,
+				39EF42562B835F8000059A20 /* job_routes.swift */,
 			);
 			path = Jobs;
 			sourceTree = "<group>";
@@ -425,8 +434,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				39F3A9AB2B7BF28B000A447A /* CompanyDetailHeaderView.swift in Sources */,
+				39EF42572B835F8000059A20 /* job_routes.swift in Sources */,
 				395890142B78BA550033BF7D /* LoginView.swift in Sources */,
-				392EB1BF2B812A2900BF2C9D /* NavigationKey+Extension.swift in Sources */,
 				392EB1C12B812AB000BF2C9D /* AppRoutes.swift in Sources */,
 				3963C38D2B7C2BAE009ADAC2 /* UploadCVView.swift in Sources */,
 				395890272B791CDD0033BF7D /* HomeBannerView.swift in Sources */,
@@ -435,11 +444,14 @@
 				39B9D80B2B7A9C750082A781 /* JobDetailHeaderView.swift in Sources */,
 				39304A8A2B7017B600DCEB4B /* UIColor+Extension.swift in Sources */,
 				395890202B7918C00033BF7D /* ResetPasswordCodeView.swift in Sources */,
+				39EF42532B835D8900059A20 /* home_route.swift in Sources */,
+				39EF42512B835D5E00059A20 /* auth_route.swift in Sources */,
 				3963C3872B7C1BBD009ADAC2 /* CompanyDetailJobListView.swift in Sources */,
 				3958901A2B78D7D60033BF7D /* BaseButton.swift in Sources */,
 				395890172B78C4710033BF7D /* BaseTextField.swift in Sources */,
 				39B9D8082B7A9A8F0082A781 /* JobDetailView.swift in Sources */,
 				39F3A9A92B7BF261000A447A /* CompanyDetailsView.swift in Sources */,
+				39EF42552B835DFA00059A20 /* company_routes.swift in Sources */,
 				3958902B2B7924AD0033BF7D /* HomeJobStatsView.swift in Sources */,
 				39EF424F2B8332A500059A20 /* AppNavigation.swift in Sources */,
 				3963C38F2B7C39ED009ADAC2 /* MultipleTextField.swift in Sources */,

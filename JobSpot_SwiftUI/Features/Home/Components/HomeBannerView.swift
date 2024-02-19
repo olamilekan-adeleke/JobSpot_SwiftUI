@@ -11,13 +11,12 @@ struct HomeBannerView: View {
     var body: some View {
         ZStack {
             VStack(alignment: .leading) {
-                TextView(text: "50% off \ntake any courses", size: 18, weight: .semibold)
-                    .foregroundColor(Color.white)
+                TextView(text: "50% off \ntake any courses", size: 18, weight: .semibold, color: .white).foregroundColor(Color.white)
                 Spacer().frame(height: 10)
-                BaseButton(
-                    config: .init(title: "Join Now", type: .custom(Color(uiColor: UIColor(fromHex: "FF9228")!)))
-                ) {}
-                    .frame(width: 90, height: 26)
+                BaseButton(config: .init(title: "Join Now", type: .custom(Color(uiColor: UIColor(fromHex: "FF9228")!)))) {
+                    //
+                }
+                .frame(width: 90, height: 26)
             }
             .padding(.horizontal, 17)
             .padding(.vertical, 24)

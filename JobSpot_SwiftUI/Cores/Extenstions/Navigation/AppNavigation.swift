@@ -7,12 +7,6 @@
 
 import SwiftUI
 
-enum CurrentView: Int {
-    case onboarding
-    case login
-    case main
-}
-
 class AppNavigationState: ObservableObject {
     @Published var routes: [AppRoute] = []
 
@@ -36,5 +30,7 @@ func handleNavigationDestination(_ route: AppRoute) -> some View {
     switch route {
         case .auth(let route): AppRoute.goOnboardingRoute(route)
         case .home(let route): AppRoute.goHomeRoutes(route)
+        case .company(let route): AppRoute.goCompanyRoutes(route)
+        case .job(let route): AppRoute.goJobRoutes(route)
     }
 }

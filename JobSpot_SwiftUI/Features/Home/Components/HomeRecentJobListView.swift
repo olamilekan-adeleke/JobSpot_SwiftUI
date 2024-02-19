@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct HomeRecentJobListView: View {
+    @EnvironmentObject var appNavigator: AppNavigationState
+
     var body: some View {
         VStack(alignment: .leading) {
             TextView(text: "Find Jobs", size: 16, weight: .bold)
@@ -16,6 +18,7 @@ struct HomeRecentJobListView: View {
 
             ForEach(Range(0 ... 4), id: \.self) { _ in
                 RecentJobItemView().padding(.bottom, 5)
+                    .onTapGesture { appNavigator.push(AppRoute.job(.jobDetails)) }
             }
         }
         .background(Color.AppColor.appBackgroundColor)
