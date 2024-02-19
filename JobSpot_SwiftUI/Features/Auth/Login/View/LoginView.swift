@@ -40,7 +40,7 @@ struct LoginView: View {
 
             Group {
                 BaseButton(config: .init(title: "Login", type: .primary)) {
-                    appNavigator.push(AppRoute.home(.homeView))
+                    appNavigator.pushAndRemoveAll(AppRoute.home(.homeView))
                 }
                 Spacer().frame(height: 10)
                 BaseButton(config: .init(title: "Login With Google", type: .secondary)) {

@@ -23,6 +23,16 @@ class AppNavigationState: ObservableObject {
             routes.removeLast()
         }
     }
+
+    func pushReplaces(_ route: AppRoute) {
+        if !routes.isEmpty { routes.removeLast() }
+        push(route)
+    }
+
+    func pushAndRemoveAll(_ route: AppRoute) {
+        if routes.isEmpty == false { routes.removeAll() }
+        push(route)
+    }
 }
 
 @ViewBuilder
