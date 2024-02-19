@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct JobDetailView: View {
+    @EnvironmentObject var appNavigator: AppNavigationState
+
     var body: some View {
         ScrollView(showsIndicators: false) {
             VStack {
@@ -23,8 +25,11 @@ struct JobDetailView: View {
                 JobDetailInformationView()
 
                 Spacer().frame(height: 20)
-                BaseButton(config: .init(title: "Apply", type: .primary)) {}
-                    .padding(.horizontal, 16)
+                BaseButton(config: .init(title: "Apply", type: .primary)) {
+                    appNavigator.push(AppRoute.job(.jobApplication))
+                }
+                .padding(.horizontal, 16)
+
                 Spacer().frame(height: 30)
             }
             .background(Color.AppColor.appBackgroundColor)

@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ResetPasswordCodeView: View {
+    @EnvironmentObject var appNavigator: AppNavigationState
+
     @State private var codeText = ""
     let emailAddress: String
 
@@ -39,7 +41,9 @@ struct ResetPasswordCodeView: View {
             Spacer()
 
             Group {
-                BaseButton(config: .init(title: "Submit Code", type: .primary)) {}
+                BaseButton(config: .init(title: "Submit Code", type: .primary)) {
+                    appNavigator.popUntil(AppRoute.auth(.login))
+                }
                 Spacer().frame(height: 10)
                 BaseButton(config: .init(title: "Open Email", type: .secondary)) {}
             }

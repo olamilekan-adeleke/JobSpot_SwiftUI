@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct LoginView: View {
+    @EnvironmentObject var appNavigator: AppNavigationState
+
     @State private var emailText = ""
     @State private var passwordText = ""
 
@@ -31,16 +33,23 @@ struct LoginView: View {
                 TextView(text: "Forgot password", size: 11, weight: .light)
                     .opacity(0.7)
                     .frame(maxWidth: .infinity, alignment: .trailing)
+                    .onTapGesture { appNavigator.push(AppRoute.auth(.forgotPassword)) }
             }
 
             Spacer().frame(height: 40)
 
             Group {
-                BaseButton(config: .init(title: "Login", type: .primary)) {}
+                BaseButton(config: .init(title: "Login", type: .primary)) {
+                    appNavigator.pushAndRemoveAll(AppRoute.home(.homeView))
+                }
                 Spacer().frame(height: 10)
-                BaseButton(config: .init(title: "Sign Up", type: .secondary)) {}
+                BaseButton(config: .init(title: "Login With Google", type: .secondary)) {
+                    appNavigator.push(AppRoute.auth(.login))
+                }
                 Spacer().frame(height: 16)
+
                 TextView(attributedString: createAccountText(), size: 10, weight: .light)
+                    .onTapGesture { appNavigator.push(AppRoute.auth(.createAccount)) }
             }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)

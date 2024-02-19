@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct JobApplicationView: View {
+    @EnvironmentObject var appNavigator: AppNavigationState
+
     var body: some View {
         VStack {
             JobDetailHeaderView()
@@ -18,8 +20,11 @@ struct JobApplicationView: View {
             Spacer()
 
             Spacer().frame(height: 20)
-            BaseButton(config: .init(title: "Apply Now", type: .primary)) {}
-                .padding(.horizontal, 16)
+            BaseButton(config: .init(title: "Apply Now", type: .primary)) {
+                appNavigator.popUntil(AppRoute.home(.homeView))
+            }
+            .padding(.horizontal, 16)
+
             Spacer().frame(height: 30)
         }
         .background(Color.AppColor.appBackgroundColor)
